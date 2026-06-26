@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Plastoline & MAP – The Future of Plastics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<style>
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    background: #050816;
+    color: #f5f7ff;
+    font-family: system-ui, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    color: #35c9ff;
+}
+a { color: #35c9ff; }
+
+/* ---------- HEADER ---------- */
+header {
+    padding: 32px 6vw 16px;
+    background: linear-gradient(135deg, #050816 0, #0b1020 40%, #050816 100%);
+    border-bottom: 1px solid #1a2238;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+header h1 {
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+}
+header p {
+    max-width: 600px;
+    color: #a9b3d9;
+}
+nav {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+nav a {
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid #1f2940;
+    background: #050816;
+    font-size: 0.85rem;
+    color: #a9b3d9;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #35c9ff22;
+    color: #fff;
+}
+
+/* ---------- LAYOUT ---------- */
+main {
+    padding: 24px 6vw 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.card {
+    background: #11172b;
+    padding: 18px;
+    border-radius: 14px;
+    border: 1px solid #1f2940;
+    margin-bottom: 40px;
+}
+
+/* ---------- FAQ ---------- */
+.faq-item {
+    background: #050816;
+    border: 1px solid #1f2940;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.faq-question {
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #35c9ff;
+    padding: 12px;
+    text-align: left;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 12px;
+    color: #a9b3d9;
+    transition: max-height 0.3s ease;
+}
+.faq-item.open .faq-answer {
+    max-height: 800px;
+    padding-bottom: 12px;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    padding: 18px 6vw 26px;
+    border-top: 1px solid #1a2238;
+    background: #050816;
+    color: #a9b3d9;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>The Future Use of Plastics: Plastoline & MAP</h1>
+    <p>Turning plastic waste into renewable fuel through microwave-assisted pyrolysis (MAP), while confronting the health impacts of microplastics on humans and future generations.</p>
+
+    <nav>
+        <a href="#plastoline">Plastoline</a>
+        <a href="#map">MAP Process</a>
+        <a href="#microplastics">Microplastics</a>
+        <a href="#julian">Julian Brown</a>
+        <a href="#culture">Social Change</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+</header>
+
+<main>
+
+<!-- INTRO -->
+<section class="card">
+    <h2>Introduction</h2>
+    <p>Plastic waste has reached unprecedented levels in human history. Today, we explore <strong>plastoline</strong>, a renewable fuel created through <strong>microwave-assisted pyrolysis (MAP)</strong>, and how this technology can help clean both our planet and our bodies.</p>
+
+    <blockquote>
+        “Plastic never goes away — it just breaks down into finer and finer particles.” — Desiree LaBeaud, MD (Stanford Medicine)
+    </blockquote>
+
+    <p>Since the 1950s, humanity has produced <strong>6.3 billion metric tons</strong> of plastic waste.  
+    That equals roughly <strong>7.2 trillion grocery bags</strong>—enough to reach the moon and back <strong>5,790 times</strong>.</p>
+</section>
+
+<!-- PLASTOLINE -->
+<section id="plastoline" class="card">
+    <h2>What is Plastoline?</h2>
+    <p>Plastoline is a renewable, crude‑oil‑like fuel created by breaking down plastic waste through microwave‑assisted pyrolysis (MAP). It matters because it reframes plastic not as a permanent pollutant but as a valuable energy resource that can be reclaimed rather than discarded. Humanity has produced over 6.3 billion metric tons of plastic waste since the 1950s — the equivalent of 7.2 trillion grocery bags, enough to reach the moon and back 5,790 times. Plastoline offers a way to convert this overwhelming environmental burden into usable energy, potentially powered by solar panels, making it a bridge between waste management and clean energy.</p>
+</section>
+
+<!-- MAP PROCESS -->
+<section id="map" class="card">
+    <h2>How MAP (Microwave-Assisted Pyrolysis) Works</h2>
+
+    <p>MAP uses microwaves and high heat in a low-oxygen chamber to break plastic down into crude-oil-like fuel.</p>
+
+    <h3>Process Overview</h3>
+    <ul>
+        <li>Plastic is inserted into a sealed pyrolysis chamber.</li>
+        <li>The chamber is heated to <strong>450°C</strong>.</li>
+        <li>Microwaves accelerate molecular breakdown.</li>
+        <li>Plastic decomposes into gas and melted hydrocarbons.</li>
+        <li>Gas is condensed into liquid fuel (plastoline).</li>
+    </ul>
+</section>
+
+<!-- MICROPLASTICS -->
+<section id="microplastics" class="card">
+    <h2>Microplastics and Human Health</h2>
+
+    <p>Microplastics and nanoplastics are now found in the brain, heart, testicles, placenta, lymph nodes, stomach, urine, semen, breastmilk, and newborn meconium. Humans ingest or inhale an estimated <strong>74,000–121,000 particles per year</strong>.</p>
+
+    <h3>Fertility Effects</h3>
+    <p>Additives like <strong>phthalates</strong> and <strong>BPA</strong> disrupt sperm development and epigenetic programming, affecting future generations.</p>
+</section>
+
+<!-- JULIAN BROWN -->
+<section id="julian" class="card">
+    <h2>Julian Brown: The Inventor Behind MAP</h2>
+    <p>Julian Brown began building MAP machines at age 17. His work demonstrates that innovation can begin in a backyard and scale into global sustainability efforts.</p>
+</section>
+
+<!-- SOCIAL CHANGE -->
+<section id="culture" class="card">
+    <h2>Social and Cultural Change</h2>
+
+    <p>A major question arises: <em>Does plastoline require us to keep producing plastic?</em></p>
+
+    <p>Short-term: We already have more than enough plastic waste to sustain MAP for decades.</p>
+
+    <p>Long-term: Policy and culture must prevent industries from producing excess plastic simply to maintain fuel supply.</p>
+
+    <h3>Ideal Three-Phase Future</h3>
+    <ol>
+        <li>Clean up existing global plastic waste using MAP.</li>
+        <li>Transition plastoline into a bridge fuel.</li>
+        <li>Shift to other renewable sources (thermal, wave, kinetic sidewalks, etc.).</li>
+    </ol>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="card">
+    <h2>FAQ</h2>
+
+    <div class="faq-item">
+        <button class="faq-question">1) What is plastoline and why does it matter?</button>
+        <div class="faq-answer">
+            Plastoline is a renewable, crude‑oil‑like fuel created by breaking down plastic waste through microwave‑assisted pyrolysis (MAP). It matters because it reframes plastic not as a permanent pollutant but as a valuable energy resource that can be reclaimed rather than discarded. Humanity has produced over 6.3 billion metric tons of plastic waste since the 1950s — the equivalent of 7.2 trillion grocery bags, enough to reach the moon and back 5,790 times. Plastoline offers a way to convert this overwhelming environmental burden into usable energy, potentially powered by solar panels, making it a bridge between waste management and clean energy.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">2) What is MAP and how does it work?</button>
+        <div class="faq-answer">
+            Microwave‑assisted pyrolysis (MAP) is a process that uses a combination of high heat — around 450°C — and microwave radiation to break plastic down into its fundamental hydrocarbon molecules. Unlike traditional burning, pyrolysis occurs in a low‑oxygen environment, preventing combustion and instead causing the plastic to thermally decompose. In MAP, microwaves accelerate this breakdown by energizing the plastic at the molecular level, allowing long polymer chains to split into smaller, fuel‑like components. The resulting gases and melted plastic are then condensed and distilled into crude oil, which can be refined into plastoline.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">3) How does this help the world?</button>
+        <div class="faq-answer">
+            Plastoline and MAP help the world by addressing two major global crises simultaneously: plastic pollution and dependence on fossil fuels. Plastic waste is accumulating in oceans, landfills, and ecosystems at unprecedented rates, and microplastics are now found in human organs, blood, and even newborns. By converting plastic into fuel, MAP provides a way to clean up existing pollution while reducing the need to extract new oil from the earth. This creates a circular energy system where waste becomes a resource.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">4) Does this mean we must keep producing plastic?</button>
+        <div class="faq-answer">
+            In the short term, we already have far more plastic waste than we can handle, enough to sustain MAP systems for decades without producing a single new plastic item. The danger lies in the long‑term economic incentives: if plastoline becomes profitable, industries — especially big oil — may be tempted to continue producing plastic to maintain fuel supply. This is where social, cultural, and policy changes become essential.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">5) How is big oil affected?</button>
+        <div class="faq-answer">
+            Big oil companies already control both fossil fuel extraction and plastic production, so plastoline presents both a threat and an opportunity for them. On one hand, converting plastic waste into fuel could disrupt traditional oil markets by introducing a new, renewable competitor. On the other hand, big oil could easily monetize and commoditize plastoline, integrating MAP into their existing infrastructure to maintain profits.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">6) How long is this sustainable?</button>
+        <div class="faq-answer">
+            Plastoline is sustainable as long as plastic waste exists — and currently, the world has an overwhelming surplus. In the ideal scenario, plastoline serves as a temporary but powerful bridge technology. First, it helps eliminate the massive backlog of plastic pollution. Then, as plastic waste becomes scarce, plastoline production naturally slows down.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">7) Who is Julian Brown?</button>
+        <div class="faq-answer">
+            Julian Brown is a young inventor who began building microwave‑assisted pyrolysis machines at just 17 years old. Driven by a passion for science and environmental restoration, he has become a leading figure in the development of plastoline technology.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">8) How do microplastics affect me and my future family?</button>
+        <div class="faq-answer">
+            Microplastics affect human health in profound and alarming ways. They enter the body through inhalation, ingestion, and skin contact, exposing the average person to 74,000–121,000 particles per year. These particles have been found in the brain, heart, stomach, lymph nodes, testicles, placenta, urine, semen, breastmilk, and newborn meconium — leading researchers to conclude that “we’re born pre‑polluted.”
+        </div>
+    </div>
+
+</section>
+
+</main>
+
+<footer>
+    <p>“Plastic never goes away — it just breaks down into finer and finer particles.”</p>
+</footer>
+
+<script>
+// FAQ accordion
+document.querySelectorAll('.faq-item').forEach(item => {
+    item.querySelector('.faq-question').addEventListener('click', () => {
+        const open = item.classList.contains('open');
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!open) item.classList.add('open');
+    });
+});
+</script>
+
+</body>
+</html>
